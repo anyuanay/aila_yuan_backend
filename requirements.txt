@@ -1,8 +1,8 @@
 fastapi
 uvicorn
-pydantic
-python-jose
-passlib
+pydantic[email]
+python-jose[cryptography]
+passlib[bcrypt]
 python-multipart
 bcrypt
 PyJWT
